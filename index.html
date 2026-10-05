@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>청년미래적금 2차 신청 가이드 | 쩐투력</title>
+<meta name="description" content="청년미래적금 2차 신청 일정, 가입 조건, 청년도약계좌 갈아타기, 신청 전 체크리스트를 공식 공개자료 기준으로 정리했어요.">
+<meta name="theme-color" content="#2c4a30">
+<meta property="og:type" content="article">
+<meta property="og:title" content="청년미래적금 2차 신청 가이드 | 쩐투력">
+<meta property="og:description" content="신청 일정부터 가입 조건, 갈아타기와 준비 체크리스트까지.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23f4b400'/%3E%3Ccircle cx='32' cy='32' r='24' fill='none' stroke='%232c4a30' stroke-width='3'/%3E%3Cpath d='M32 14l5.3 10.8 11.9 1.7-8.6 8.4 2 11.8L32 41.1l-10.6 5.6 2-11.8-8.6-8.4 11.9-1.7z' fill='%232c4a30'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.faq-a[hidden]{display:block}</style></noscript>
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#summary">본문 바로가기</a>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="brand-row">
+      <a class="brand" href="https://www.instagram.com/jjeonpower/" target="_blank" rel="noopener noreferrer" aria-label="쩐투력 인스타그램 (새 창)">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="30" fill="#f4b400"/><circle cx="32" cy="32" r="24" fill="none" stroke="#2c4a30" stroke-width="3"/><path d="M32 14l5.3 10.8 11.9 1.7-8.6 8.4 2 11.8L32 41.1l-10.6 5.6 2-11.8-8.6-8.4 11.9-1.7z" fill="#2c4a30"/></svg>
+        <span class="brand-text"><strong>쩐투력</strong><span class="brand-en">JJEONPOWER</span></span>
+      </a>
+      <p class="brand-tag">군인·사회초년생 돈 이야기</p>
+    </div>
+
+    <p class="eyebrow">2026년 10월 · 2차 모집</p>
+    <h1>청년미래적금<br>2차 신청 가이드</h1>
+    <p class="lead">신청 일정부터 가입 조건, 갈아타기와 준비 체크리스트까지.</p>
+
+    <ul class="badges" aria-label="자료 기준">
+      <li class="badge badge-yellow">공식자료 기준 · 2026.10.5 확인</li>
+      <li class="badge">쩐투력이 정리한 비공식 안내</li>
+    </ul>
+
+    <div class="date-cards">
+      <div class="date-card">
+        <p class="dc-label">① 가입 신청</p>
+        <p class="dc-date">10.7(수) ~ 10.16(금)</p>
+        <p class="dc-note">토·일·공휴일 제외 · 취급기관 모바일 앱</p>
+      </div>
+      <div class="date-card">
+        <p class="dc-label">② 계좌개설</p>
+        <p class="dc-date">11.16(월) ~ 11.27(금)</p>
+        <p class="dc-note">토·일 제외 · 심사 후 ‘가입 가능’ 안내를 받은 분만</p>
+      </div>
+    </div>
+    <p class="hero-hint">신청 기간과 계좌개설 기간은 달라요. 10월에 신청해도 통장은 11월에 만들어져요.</p>
+
+    <div id="status-banner" class="status" role="status" aria-live="polite">
+      <p class="status-title">일정은 아래 ‘일정’ 항목에서 확인하세요.</p>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#checklist">신청 전 체크리스트 보기</a>
+      <a class="btn btn-ghost" href="https://fill4young.kinfa.or.kr/yfs/main" target="_blank" rel="noopener noreferrer">공식 안내 확인<span class="sr-only"> (서민금융진흥원, 새 창)</span></a>
+    </div>
+
+    <div class="tools" role="group" aria-label="페이지 도구">
+      <button type="button" class="tool-btn" id="btn-copy">링크 복사</button>
+      <button type="button" class="tool-btn" id="btn-share">공유하기</button>
+      <button type="button" class="tool-btn" id="btn-print">인쇄 / PDF 저장</button>
+    </div>
+    <p id="tool-msg" class="tool-msg" role="status" aria-live="polite"></p>
+    <div id="url-fallback" class="url-fallback" hidden>
+      <label for="url-input">아래 주소를 길게 눌러 복사해 주세요</label>
+      <input id="url-input" type="text" readonly>
+    </div>
+
+    <aside id="inapp-notice" class="inapp" hidden>
+      <p><strong>인스타그램 앱 안에서 보고 계신가요?</strong> 앱 안 브라우저에서는 공유·복사·인쇄 같은 일부 기능이 제한될 수 있어요. 메뉴(⋯)에서 ‘외부 브라우저로 열기’(또는 ‘브라우저에서 열기’)를 누르거나, 위 ‘링크 복사’ 후 Chrome·Safari에 붙여넣어 열어 주세요.</p>
+    </aside>
+  </div>
+</header>
+
+<nav class="subnav" id="subnav" aria-label="페이지 내 이동">
+  <ul class="wrap">
+    <li><a href="#summary">요약</a></li>
+    <li><a href="#schedule">일정</a></li>
+    <li><a href="#eligibility">가입 대상</a></li>
+    <li><a href="#military">군인 체크</a></li>
+    <li><a href="#switch">갈아타기</a></li>
+    <li><a href="#checklist">체크리스트</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<main class="wrap" id="main">
+
+  <noscript>
+    <p class="callout callout-warn">자바스크립트가 꺼져 있어요. 내용은 그대로 볼 수 있지만, 일정 상태 표시·체크리스트 저장·FAQ 펼치기·링크 복사는 동작하지 않아요.</p>
+  </noscript>
+
+  <!-- C. 한눈에 요약 -->
+  <section class="section" id="summary" aria-labelledby="h-summary">
+    <h2 id="h-summary"><span class="h-num">01</span>한눈에 요약</h2>
+    <p class="section-lead">은행 이자, 정부기여금, 비과세는 서로 다른 혜택이에요. 하나로 뭉뚱그려 ‘금리’로 부르지 않도록 나눠서 정리했어요.</p>
+
+    <div class="card-grid">
+      <article class="card">
+        <p class="card-label">만기</p>
+        <p class="card-big">3년 (36개월)</p>
+        <p class="card-text">자유적립식 상품이에요. 일반 중도해지를 하면 정부기여금이 지급되지 않고 이자소득도 과세돼요(특별중도해지 사유 제외).</p>
+      </article>
+      <article class="card">
+        <p class="card-label">월 납입 한도</p>
+        <p class="card-big">매월 최대 50만원</p>
+        <p class="card-text">1천원 단위로 납입하고, 연 600만원을 넘길 수 없어요.</p>
+      </article>
+      <article class="card card-bank">
+        <p class="card-label"><span class="tag tag-bank">은행이 주는 이자</span></p>
+        <p class="card-big">3년 고정금리<br><span class="card-big-sub">기본 연 5% + 우대 최대 2~3%</span></p>
+        <p class="card-text">우대금리 조건은 취급기관마다 달라요. 은행연합회 소비자포털의 금리 비교공시에서 비교할 수 있어요.</p>
+      </article>
+      <article class="card card-gov">
+        <p class="card-label"><span class="tag tag-gov">정부가 더해주는 기여금</span></p>
+        <p class="card-big">매월 납입액의 6% 또는 12%</p>
+        <p class="card-text">은행 금리가 아니라 별도 지원금이에요. 월 지급 한도는 일반형 3만원, 우대형 6만원이고, 소득·유형 조건을 충족해야 받아요.</p>
+      </article>
+      <article class="card">
+        <p class="card-label">비과세</p>
+        <p class="card-big">이자소득세 면제</p>
+        <p class="card-text">납입원금과 정부기여금에서 생긴 이자에 적용돼요. 기여금 지급 대상이 아닌 소득 구간도 세제혜택은 받을 수 있어요.</p>
+      </article>
+      <article class="card">
+        <p class="card-label">신청 방식</p>
+        <p class="card-big">취급기관 모바일 앱</p>
+        <p class="card-text">농협·신한·우리·하나·기업·국민·수협·iM·부산·광주·전북·경남·카카오·우정사업본부 14곳이에요. 토스뱅크는 3차 모집부터 참여 예정이에요. 전 취급기관을 통틀어 1인 1계좌예요.</p>
+      </article>
+    </div>
+
+    <h3>일반형 · 우대형, 조건과 함께 보기</h3>
+    <div class="type-grid">
+      <article class="type-card">
+        <p class="type-name">일반형</p>
+        <p class="type-benefit">정부기여금 <strong>6%</strong> <span class="type-sub">(월 최대 3만원)</span></p>
+        <p class="type-cond"><strong>조건</strong> 일반소득자 총급여 6,000만원(종합소득 4,800만원) 이하, 또는 소상공인 연매출 3억원 이하 + 가구 기준중위소득 200% 이하(맞벌이 2인 가구는 250%)</p>
+      </article>
+      <article class="type-card type-card-pref">
+        <p class="type-name">우대형</p>
+        <p class="type-benefit">정부기여금 <strong>12%</strong> <span class="type-sub">(월 최대 6만원)</span></p>
+        <p class="type-cond"><strong>조건</strong> 중소기업 재직자·신규취업자·소상공인 중 요건을 충족한 경우만. 예) 재직자 총급여 3,600만원(종합소득 2,600만원) 이하, 소상공인 연매출 1억원 이하 + 가구 기준중위소득 150% 이하(맞벌이 2인 가구는 200%)</p>
+        <p class="type-warn">중소기업 재직 요건(가입 후 만기 한 달 전까지 총 29개월 이상, 이직 최대 2회)을 못 채우면 만기 때 일반형으로 전환될 수 있어요.</p>
+      </article>
+      <article class="type-card type-card-none">
+        <p class="type-name">기여금 없음</p>
+        <p class="type-benefit">정부기여금 <strong>없음</strong> <span class="type-sub">(비과세만)</span></p>
+        <p class="type-cond"><strong>대상</strong> 총급여 6,000만원 초과 ~ 7,500만원 이하(종합소득 4,800만원 초과 ~ 6,300만원 이하) + 가구 기준중위소득 200% 이하(250%). 가입은 가능하지만 기여금은 지급되지 않아요.</p>
+      </article>
+    </div>
+    <p class="callout callout-warn"><strong>최대 혜택은 모두에게 적용되지 않아요.</strong> 우대형 12%는 요건을 충족한 사람만 받고, 소득 구간에 따라 기여금이 없을 수도 있어요.</p>
+
+    <details class="more">
+      <summary>‘연 최대 19.4%’는 은행 금리인가요?</summary>
+      <div class="more-body">
+        <p>아니에요. 금융위원회는 금리, 정부기여금, 이자소득 비과세 효과를 모두 합쳐 <strong>일반적인 과세 단리 적금 금리로 환산했을 때의 비교 효과</strong>로 이 숫자를 설명했어요.</p>
+        <ul>
+          <li>월 50만원을 36개월 납입(원금 1,800만원)한다는 가정이에요.</li>
+          <li>은행 금리를 연 7%로 가정하면 일반형 13.2%, 우대형 18.2%예요.</li>
+          <li>은행 금리를 연 8%로 가정하면 일반형 14.4%, 우대형 19.4%예요.</li>
+        </ul>
+        <p>실제 이자율이 아니고, 우대형은 요건을 충족한 사람에게만 해당돼요.</p>
+      </div>
+    </details>
+
+    <div class="callout callout-info">
+      <p><strong>2차 모집 조건과 ‘아직 확정되지 않은 것’은 구분해서 보세요.</strong></p>
+      <ul>
+        <li><strong>이 페이지의 조건</strong>은 2026년 10월 2차 모집 안내(금융위원회 2026.9.16·9.30 자료) 기준이에요.</li>
+        <li>금융위원회는 가입대상 확대, 우대형 기여금 상향(12% → 15%, 지방 중소기업 근무 시 25%)을 담은 <strong>2027년 예산안</strong>이 국회에 제출돼 있다고 밝혔어요. 아직 확정된 제도가 아니고, 2차 신청 조건과는 별개예요.</li>
+        <li>예산안이 확정되면 기존 가입자에게도 상향된 우대형 기여금을 소급해 지급할 <strong>예정</strong>이라고 안내했어요.</li>
+        <li>다음 모집 일정은 이 페이지에서 안내하지 않아요. 공식 공지를 확인해 주세요.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- D. 일정 -->
+  <section class="section" id="schedule" aria-labelledby="h-schedule">
+    <h2 id="h-schedule"><span class="h-num">02</span>일정</h2>
+    <p class="section-lead">신청 → 심사 → 결과 안내 → 계좌개설 순서예요. 신청일과 계좌개설일은 달라요.</p>
+
+    <ol class="timeline" id="timeline">
+      <li class="tl-item" data-start="2026-10-07" data-end="2026-10-16">
+        <div class="tl-head"><span class="tl-step">1</span><h3>가입 신청</h3><span class="tl-state" aria-hidden="false"></span></div>
+        <p class="tl-date">10.7(수) ~ 10.16(금)</p>
+        <ul class="tl-list">
+          <li>토·일·공휴일은 접수가 없어요.</li>
+          <li>취급기관 모바일 앱에서 비대면으로 신청해요.</li>
+          <li>이번 2차부터는 신청할 때 ‘일반소득자 · 중소기업 재직자 · 소상공인’ 중 내 유형을 직접 골라요.</li>
+        </ul>
+      </li>
+      <li class="tl-item" data-start="2026-10-19" data-end="2026-11-13">
+        <div class="tl-head"><span class="tl-step">2</span><h3>가입·소득 심사</h3><span class="tl-state"></span></div>
+        <p class="tl-date">10.19(월) ~ 11.13(금)</p>
+        <ul class="tl-list">
+          <li>관계기관 전산 연계로 별도 서류 없이 심사해요.</li>
+          <li>확인이 더 필요하면 추가 서류를 요청받을 수 있어요.</li>
+          <li>심사 일정은 신청 인원과 진행 상황에 따라 일부 바뀔 수 있어요.</li>
+        </ul>
+      </li>
+      <li class="tl-item" data-start="2026-10-30" data-end="2026-11-13">
+        <div class="tl-head"><span class="tl-step">3</span><h3>결과 안내</h3><span class="tl-state"></span></div>
+        <p class="tl-date">10.30 ~ 11.13</p>
+        <ul class="tl-list">
+          <li>사전심사 결과 안내 10.30 ~ 11.2 <span class="tag tag-temp">잠정</span></li>
+          <li>이의신청 11.2 ~ 11.5 <span class="tag tag-temp">잠정</span></li>
+          <li>최종 심사 결과 개별 안내 11.12 ~ 11.13</li>
+        </ul>
+      </li>
+      <li class="tl-item" data-start="2026-11-16" data-end="2026-11-27">
+        <div class="tl-head"><span class="tl-step">4</span><h3>계좌개설</h3><span class="tl-state"></span></div>
+        <p class="tl-date">11.16(월) ~ 11.27(금)</p>
+        <ul class="tl-list">
+          <li>토·일은 제외예요. ‘가입 가능’ 안내를 받은 분만 취급기관 앱에서 개설해요.</li>
+          <li>이 기간이 지나면 계좌를 만들 수 없어요.</li>
+          <li>개설 후 바로 납입할 수 있어요(주말 가능). 갈아타기는 특별중도해지가 끝난 다음 영업일 9시부터 납입해요.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3>신청 가능한 날 · 출생연도 홀짝제</h3>
+    <p class="table-note">홀짝은 생일이 아니라 <strong>출생연도의 끝자리</strong>예요. 예) 1997년생은 끝자리 7(홀수) → 10.7(수), 2000년생은 끝자리 0(짝수) → 10.8(목).</p>
+    <div class="table-wrap">
+      <table class="tbl tbl-cards" role="table">
+        <thead role="rowgroup">
+          <tr role="row"><th role="columnheader" scope="col">날짜</th><th role="columnheader" scope="col">신청 대상</th><th role="columnheader" scope="col">참고</th></tr>
+        </thead>
+        <tbody role="rowgroup">
+          <tr role="row"><td role="cell" data-label="날짜"><strong>10.7(수)</strong></td><td role="cell" data-label="신청 대상">출생연도 끝자리 <strong>홀수</strong> (1·3·5·7·9)</td><td role="cell" data-label="참고">홀짝제 운영일</td></tr>
+          <tr role="row"><td role="cell" data-label="날짜"><strong>10.8(목)</strong></td><td role="cell" data-label="신청 대상">출생연도 끝자리 <strong>짝수</strong> (0·2·4·6·8)</td><td role="cell" data-label="참고">홀짝제 운영일</td></tr>
+          <tr role="row" class="row-off"><td role="cell" data-label="날짜">10.9(금) ~ 10.11(일)</td><td role="cell" data-label="신청 대상">접수 없음</td><td role="cell" data-label="참고">10.9 공휴일(한글날) · 10.10~11 주말</td></tr>
+          <tr role="row"><td role="cell" data-label="날짜"><strong>10.12(월) ~ 10.16(금)</strong></td><td role="cell" data-label="신청 대상">출생연도와 관계없이 <strong>누구나</strong></td><td role="cell" data-label="참고">신청 마지막 날 10.16(금)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-info">
+      <ul>
+        <li><strong>선착순 상품이 아니에요.</strong> 신청 기간 안에 신청했다면 순서와 관계없이 심사를 받아요(금융위원회).</li>
+        <li><strong>카카오뱅크는 2차 모집 전체 신청 한도가 10만좌</strong>예요. 홀짝제 기간(10.7~10.8)에는 하루 5만좌까지 접수하고, 이후에는 남은 한도 안에서 받아요. 다른 취급기관은 별도 계좌 수 한도를 두지 않을 예정이라고 안내했어요.</li>
+        <li><strong>일정은 ‘안’이에요.</strong> 금융위원회 일정표에 (안)으로 표시돼 있고, 내부 심사일정은 변동될 수 있어요. 최신 일정은 공식 안내를 확인하세요.</li>
+      </ul>
+    </div>
+
+    <div class="callout callout-warn" id="hours-note">
+      <p><span class="tag tag-warn">공식 확인 필요</span> <strong>하루 중 접수 가능 시간</strong></p>
+      <p>접수 시간은 신청할 취급기관 앱 공지를 확인하세요.</p>
+      <p>이 페이지는 날짜만 안내하고, ‘지금 접수 가능’ 같은 실시간 판단은 하지 않아요.</p>
+    </div>
+  </section>
+
+  <!-- E. 가입 대상과 혜택 조건 -->
+  <section class="section" id="eligibility" aria-labelledby="h-elig">
+    <h2 id="h-elig"><span class="h-num">03</span>가입 대상과 혜택 조건</h2>
+    <p class="section-lead">‘가입할 수 있는 조건’과 ‘정부기여금을 받는 조건’은 달라요. 가입은 되는데 기여금은 없는 경우도 있어요.</p>
+
+    <h3><span class="step-chip">①</span> 가입할 수 있는 조건</h3>
+    <ul class="check-cards">
+      <li>
+        <strong>나이</strong>
+        <span>계좌개설일 기준 만 19~34세. 이번 개설 기간(11.16~11.27)에는 1991.11.17생 ~ 2007.11.27생이 해당돼요. 병역을 이행했다면 최대 6년을 빼고 계산해요.</span>
+      </li>
+      <li>
+        <strong>개인소득</strong>
+        <span>소득 기준연도는 <strong>2025년</strong>(직전연도, 국세청 확정 소득)이에요. 총급여 7,500만원 이하(종합소득금액 6,300만원 이하), 또는 연매출 3억원 이하 소상공인이어야 해요.</span>
+      </li>
+      <li>
+        <strong>가구소득</strong>
+        <span>가구원 소득을 합산해 가구 기준중위소득 <strong>200% 이하</strong>(맞벌이 2인 가구는 250% 이하)여야 해요.</span>
+      </li>
+      <li>
+        <strong>금융소득종합과세</strong>
+        <span>직전 3개 과세기간 중 1회 이상 금융소득종합과세 대상자였다면 가입이 제한돼요.</span>
+      </li>
+      <li>
+        <strong>중복 가입</strong>
+        <span>전 취급기관 통틀어 1인 1계좌예요. 청년희망적금·청년도약계좌 가입자는 중복 가입이 안 돼요(갈아타기 제외).</span>
+      </li>
+    </ul>
+
+    <h3><span class="step-chip">②</span> 정부기여금을 받는 조건 <span class="h-sub">(가입 조건과 별개)</span></h3>
+    <div class="table-wrap">
+      <table class="tbl tbl-cards" role="table">
+        <caption class="sr-only">정부기여금 지급 소득 기준</caption>
+        <thead role="rowgroup">
+          <tr role="row"><th role="columnheader" scope="col">구분</th><th role="columnheader" scope="col">개인소득 · 매출</th><th role="columnheader" scope="col">가구소득</th><th role="columnheader" scope="col">정부기여금</th></tr>
+        </thead>
+        <tbody role="rowgroup">
+          <tr role="row"><th role="rowheader" scope="row" data-label="구분">기여금 없음</th><td role="cell" data-label="개인소득 · 매출">총급여 6,000만원 초과 ~ 7,500만원 이하<br><span class="small">(종합소득 4,800만원 초과 ~ 6,300만원 이하)</span></td><td role="cell" data-label="가구소득">중위소득 200% 이하 (맞벌이 250%)</td><td role="cell" data-label="정부기여금">없음 · 비과세만</td></tr>
+          <tr role="row"><th role="rowheader" scope="row" data-label="구분">일반형</th><td role="cell" data-label="개인소득 · 매출">일반소득자 총급여 6,000만원 이하<br><span class="small">(종합소득 4,800만원 이하)</span><br>소상공인 연매출 3억원 이하</td><td role="cell" data-label="가구소득">중위소득 200% 이하 (맞벌이 250%)</td><td role="cell" data-label="정부기여금"><strong>납입액의 6%</strong><br><span class="small">월 최대 3만원</span></td></tr>
+          <tr role="row"><th role="rowheader" scope="row" data-label="구분">우대형</th><td role="cell" data-label="개인소득 · 매출">중소기업 재직자 총급여 3,600만원 이하<br><span class="small">(종합소득 2,600만원 이하)</span><br>중소기업 신규취업자 총급여 6,000만원 이하<br>소상공인 연매출 1억원 이하</td><td role="cell" data-label="가구소득">중위소득 150% 이하 (맞벌이 200%)</td><td role="cell" data-label="정부기여금"><strong>납입액의 12%</strong><br><span class="small">월 최대 6만원</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">출처: 서민금융진흥원 청년미래적금 상품 안내, 금융위원회 보도자료. 맞벌이 2인 가구 완화는 주민등록표등본상 본인과 배우자로 구성된 2인 가구에서 두 사람 모두 국세청 소득 확인이 가능할 때만 적용돼요. 군장병급여·육아휴직급여 같은 비과세소득자는 적용되지 않아요.</p>
+    <p class="callout callout-warn"><span class="tag tag-warn">공식 확인 필요</span> 중소기업 신규취업자·소상공인의 우대형 가구소득 기준은 공식 표를 한 번 더 확인해 주세요. 내 경우가 해당되는지는 이 페이지로 판단하지 말고 <a href="https://fill4young.kinfa.or.kr/yfs/joinPreview?action=diagnosis" target="_blank" rel="noopener noreferrer">공식 가입가능 여부 진단<span class="sr-only"> (새 창)</span></a> 또는 <a href="tel:1397">1397 → 3번</a>에서 확인하세요.</p>
+
+    <details class="more">
+      <summary>가구원 수별 기준 중위소득 금액 보기 (2026년, 연 소득)</summary>
+      <div class="more-body">
+        <div class="table-wrap">
+          <table class="tbl tbl-cards tbl-num" role="table">
+            <caption class="sr-only">2026년 기준 중위소득 연 소득 금액(원)</caption>
+            <thead role="rowgroup">
+              <tr role="row"><th role="columnheader" scope="col">가구원 수</th><th role="columnheader" scope="col">150%</th><th role="columnheader" scope="col">200%</th><th role="columnheader" scope="col">250%</th></tr>
+            </thead>
+            <tbody role="rowgroup">
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">1인</th><td role="cell" data-label="150%">46,156,284원</td><td role="cell" data-label="200%">61,541,712원</td><td role="cell" data-label="250%">76,927,140원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">2인</th><td role="cell" data-label="150%">75,587,256원</td><td role="cell" data-label="200%">100,783,008원</td><td role="cell" data-label="250%">125,978,760원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">3인</th><td role="cell" data-label="150%">96,462,648원</td><td role="cell" data-label="200%">128,616,864원</td><td role="cell" data-label="250%">160,771,080원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">4인</th><td role="cell" data-label="150%">116,905,284원</td><td role="cell" data-label="200%">155,873,712원</td><td role="cell" data-label="250%">194,842,140원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">5인</th><td role="cell" data-label="150%">136,020,942원</td><td role="cell" data-label="200%">181,361,256원</td><td role="cell" data-label="250%">226,701,570원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">6인</th><td role="cell" data-label="150%">154,007,136원</td><td role="cell" data-label="200%">205,342,848원</td><td role="cell" data-label="250%">256,678,560원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">7인</th><td role="cell" data-label="150%">171,272,700원</td><td role="cell" data-label="200%">228,363,600원</td><td role="cell" data-label="250%">285,454,500원</td></tr>
+              <tr role="row"><th role="rowheader" scope="row" data-label="가구원 수">8인</th><td role="cell" data-label="150%">188,538,264원</td><td role="cell" data-label="200%">251,384,352원</td><td role="cell" data-label="250%">314,230,440원</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small">서민금융진흥원 상품 안내 기준. 가구소득은 국세청에 신고된 가구원 소득을 합산해 확인해요.</p>
+      </div>
+    </details>
+
+    <h3>신청 전에 알아둘 것</h3>
+    <ul class="plain-list">
+      <li><strong>가구원 확정</strong> 주민등록표등본에서 배우자·부모·자녀·미성년 형제자매를 가구원으로 봐요. 확정된 가구원의 <strong>동의</strong>가 필요해요(조부모는 부양 사실을 확인하면 포함 가능).</li>
+      <li><strong>신청 유형</strong> 일반소득자·중소기업 재직자·소상공인 중 내 유형을 직접 골라 신청해요. 사전심사 결과가 선택과 다르면 확인하고 소명할 기회가 있어요.</li>
+      <li><strong>소상공인으로 신청한다면</strong> 신청 전에 ‘소상공인확인서’를 발급받아야 해요. 발급까지 보통 약 7일 걸려요.</li>
+      <li><strong>추가 서류</strong> 전산으로 확인이 안 되는 경우에 한해 병적증명서 등 군장병급여 증빙, 가족관계증명서, 중소기업확인서를 요청받을 수 있어요.</li>
+    </ul>
+
+    <div class="callout callout-info">
+      <p><strong>내가 해당되는지는 이 페이지가 판정하지 않아요.</strong> 최종 가입 여부는 취급기관 심사 결과로 정해져요. 아래 공식 진단·상담을 이용해 주세요.</p>
+      <p class="btn-row btn-row-left">
+        <a class="btn btn-primary btn-sm" href="https://fill4young.kinfa.or.kr/yfs/joinPreview?action=diagnosis" target="_blank" rel="noopener noreferrer">공식 가입가능 여부 진단<span class="sr-only"> (새 창)</span></a>
+        <a class="btn btn-ghost btn-sm" href="tel:1397">청년금융콜센터 1397 → 3번</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- F. 군인·전역자 -->
+  <section class="section" id="military" aria-labelledby="h-mil">
+    <h2 id="h-mil"><span class="h-num">04</span>군인 · 전역자 체크</h2>
+    <p class="section-lead">공식 자료에서 확인되는 범위만 정리했어요. 병사·직업군인·전역자는 소득 상황이 달라서, <strong>군인이라는 이유만으로 누구나 가입할 수 있는 건 아니에요.</strong></p>
+
+    <div class="card-grid card-grid-1">
+      <article class="card">
+        <h3 class="card-h">나이는 병역 기간을 빼고 계산해요</h3>
+        <p class="card-text">병적증명서로 병역 이행 기간이 확인되면 최대 6년을 현재 나이에서 빼고 심사해요. 대상은 현역병(상근예비역·의무경찰·의무소방원 포함), 사회복무요원, 장교, 준사관, 부사관이에요.</p>
+        <p class="card-text"><strong>예)</strong> 35세에 병역을 2년 이행했다면 33세로 보고 심사해요(금융위원회 예시). 기준은 계좌개설일의 나이예요.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="card-h">복무 중 소득은 ‘전년도(2025년)’ 기준이에요</h3>
+        <p class="card-text">복무 중인 장병도 <strong>2025년에 과세대상 소득 또는 일부 비과세 소득(군장병급여·육아휴직급여)이 있고 소득요건을 충족</strong>하면 <strong>일반형</strong>으로 가입할 수 있어요.</p>
+        <p class="card-text">군장병급여는 비과세소득으로 확인돼요. 전산(병무청 연계)으로 확인이 안 되면 병적증명서 등 증빙을 요청받을 수 있어요.</p>
+        <ul class="plain-list">
+          <li>군장병급여 같은 비과세소득자는 <strong>저소득 우대금리(0.5%p)가 적용되지 않아요.</strong></li>
+          <li>비과세소득자는 <strong>맞벌이 2인 가구 소득 완화</strong>도 적용되지 않아요.</li>
+        </ul>
+        <p><span class="tag tag-warn">공식 확인 필요</span> 2026년에 입대해 2025년 소득·군복무 이력이 없는 경우 어떻게 심사하는지는 공식 자료만으로 확정할 수 없어요. 1397 → 3번에 문의해 주세요.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="card-h">기초군사훈련 중이라면</h3>
+        <p class="card-text">금융위원회와 국방부는 훈련소 안에서도 스마트폰으로 비대면 가입신청과 계좌개설을 할 수 있게 지원할 예정이라고 안내했어요(1차 모집 때와 같은 방식).</p>
+        <p class="card-text">앱으로 하는 비대면 가입이라서 <strong>입영 전 또는 신청 전에</strong> 취급기관 앱 설치 → 회원가입 → 본인인증 → 입출금계좌 개설을 미리 해 두라고 안내했어요. 신청은 10.7~10.16 안에 해야 해요.</p>
+      </article>
+
+      <article class="card card-sep">
+        <h3 class="card-h">장병내일준비적금과는 별도 상품이에요</h3>
+        <p class="card-text">군장병은 장병내일준비적금·장기간부도약적금과 청년미래적금을 <strong>중복 가입할 수 있다</strong>고 금융위원회가 안내했어요. 다만 상품마다 가입 요건·한도·혜택이 따로 적용돼서, 각각 따로 확인해야 해요.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="card-h">우대형은 어떻게 되나요?</h3>
+        <p class="card-text">복무 중 장병은 일반형으로 가입할 수 있어요. 우대형은 가입일 기준 중소기업 재직자·소상공인이 대상이에요.</p>
+      </article>
+    </div>
+
+    <h3>내 상황별로 보면</h3>
+    <div class="situ-grid">
+      <article class="situ">
+        <p class="situ-name">병사 (복무 중)</p>
+        <ul>
+          <li>2025년 군장병급여·과세소득이 기준이에요.</li>
+          <li>일반형 가입 대상이에요(소득요건 충족 시).</li>
+          <li>가구소득도 함께 심사해요.</li>
+        </ul>
+      </article>
+      <article class="situ">
+        <p class="situ-name">직업군인</p>
+        <ul>
+          <li>장교·준사관·부사관은 병역 이행 기간을 나이 계산에서 뺄 수 있는 대상이에요.</li>
+          <li>소득은 국세청에 신고된 소득(총급여 등) 기준으로 심사해요.</li>
+          <li>가구소득도 함께 심사해요.</li>
+        </ul>
+      </article>
+      <article class="situ">
+        <p class="situ-name">전역자</p>
+        <ul>
+          <li>병적증명서로 병역 기간을 뺀 나이로 심사받을 수 있어요.</li>
+          <li>전역 후 취업·창업 소득은 국세청 신고 소득 기준이에요.</li>
+          <li>중소기업 재직자·신규취업자·소상공인이면 우대형 심사 대상이 될 수 있어요.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="callout callout-info">
+      <p><strong>내 상황이 위 설명과 다르거나 확실하지 않다면</strong> 가입 가능 여부를 이 페이지에서 판단하지 말고 공식 안내로 확인하세요. 최종 가입 여부는 취급기관 심사로 정해져요.</p>
+      <p class="btn-row btn-row-left">
+        <a class="btn btn-primary btn-sm" href="https://fill4young.kinfa.or.kr/yfs/joinPreview?action=diagnosis" target="_blank" rel="noopener noreferrer">공식 가입가능 여부 진단<span class="sr-only"> (새 창)</span></a>
+        <a class="btn btn-ghost btn-sm" href="tel:1397">청년금융콜센터 1397 → 3번</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- G. 갈아타기 -->
+  <section class="section" id="switch" aria-labelledby="h-switch">
+    <h2 id="h-switch"><span class="h-num">05</span>청년도약계좌 갈아타기</h2>
+    <p class="section-lead">청년도약계좌와 청년미래적금은 중복 가입이 안 돼요(도약계좌 만기 후에도 미래적금 가입 불가). 이번 2차 모집에서 도약계좌 가입자에게 갈아타기 기회가 추가로 열려요.</p>
+
+    <div class="callout callout-danger">
+      <p><strong>청년미래적금 신청 전에 청년도약계좌를 먼저 해지하지 마세요.</strong> 신청 전에 해지하면 연계가입(갈아타기)이 안 된다고 서민금융진흥원이 안내했어요. 순서는 ‘미래적금 먼저, 도약계좌 특별중도해지는 나중’이에요.</p>
+    </div>
+
+    <ol class="steps">
+      <li><strong>청년미래적금 가입 신청</strong><span>10.7 ~ 10.16 · 도약계좌와 같은 은행이어도 따로 신청해야 해요.</span></li>
+      <li><strong>심사 완료 · ‘가입 가능’ 안내 받기</strong><span>최종 심사 결과는 11.12 ~ 11.13에 개별 안내해요.</span></li>
+      <li><strong>청년미래적금 계좌개설</strong><span>11.16 ~ 11.27 · 개설 직후에는 납입이 제한돼요.</span></li>
+      <li><strong>같은 기간 안에 ‘청년미래적금 가입 목적’ 청년도약계좌 특별중도해지 신청</strong><span>청년도약계좌 취급은행 앱에서 신청해요. 접수되면 자동으로 해지 처리돼요.</span></li>
+      <li><strong>미래적금 납입 시작</strong><span>특별중도해지가 끝난 다음 영업일 9시부터 납입할 수 있어요.</span></li>
+    </ol>
+
+    <div class="callout callout-warn">
+      <p><strong>계좌개설 기간 안에 특별중도해지를 못 마치면</strong></p>
+      <ul>
+        <li>청년미래적금은 <strong>납입이 불가능</strong>해져요(납입중지).</li>
+        <li>청년도약계좌는 그대로 유지되고, 납입이 중지된 청년미래적금 계좌는 <strong>반드시 해지</strong>해야 해요.</li>
+        <li>해지 후 2개월 뒤부터 재신청할 수 있고, 재가입하면 기존 가입 기간을 반영한 조정비율 [(36개월 − 기존 가입기간) ÷ 36개월]이 적용돼 정부기여금이 일부 차감돼요.</li>
+      </ul>
+    </div>
+
+    <ul class="plain-list">
+      <li><strong>혜택 유지</strong> 연계가입 목적의 특별중도해지는 일반 해지와 달리 기존 도약계좌 납입금의 정부기여금과 이자소득 비과세 혜택이 유지돼요.</li>
+      <li><strong>나이 요건은 그대로</strong> 청년미래적금 나이 요건(만 34세 이하, 병역 기간 차감 반영)을 넘으면 도약계좌를 유지 중이어도 갈아타기가 안 돼요.</li>
+    </ul>
+
+    <h3>두 상품 구조 비교</h3>
+    <div class="table-wrap">
+      <table class="tbl tbl-cards" role="table">
+        <caption class="sr-only">청년미래적금과 청년도약계좌 비교</caption>
+        <thead role="rowgroup">
+          <tr role="row"><th role="columnheader" scope="col">항목</th><th role="columnheader" scope="col">청년미래적금</th><th role="columnheader" scope="col">청년도약계좌</th></tr>
+        </thead>
+        <tbody role="rowgroup">
+          <tr role="row"><th role="rowheader" scope="row" data-label="항목">가입 기간</th><td role="cell" data-label="청년미래적금">3년</td><td role="cell" data-label="청년도약계좌">5년</td></tr>
+          <tr role="row"><th role="rowheader" scope="row" data-label="항목">월 최대 납입</th><td role="cell" data-label="청년미래적금">50만원</td><td role="cell" data-label="청년도약계좌">70만원</td></tr>
+          <tr role="row"><th role="rowheader" scope="row" data-label="항목">최대 총 납입원금</th><td role="cell" data-label="청년미래적금">1,800만원</td><td role="cell" data-label="청년도약계좌">4,200만원</td></tr>
+          <tr role="row"><th role="rowheader" scope="row" data-label="항목">정부기여금</th><td role="cell" data-label="청년미래적금">납입액의 6%(일반형) · 12%(우대형)</td><td role="cell" data-label="청년도약계좌">소득구간별 3~6%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="callout callout-info"><strong>갈아타기가 모두에게 유리한 건 아니에요.</strong> 만기(5년 → 3년), 월 납입 한도, 내 도약계좌에 이미 쌓인 납입액과 우대금리 충족 상황, 내 소득 구간별 기여금이 사람마다 달라요. 위 표는 금융위원회 비교표의 일부일 뿐이니, 내 도약계좌 상품설명서와 비교해서 판단해 주세요.</p>
+    <p class="btn-row btn-row-left">
+      <a class="btn btn-ghost btn-sm" href="https://fill4young.kinfa.or.kr/yla/main" target="_blank" rel="noopener noreferrer">청년도약계좌 공식 안내<span class="sr-only"> (새 창)</span></a>
+    </p>
+  </section>
+
+  <!-- H. 체크리스트 -->
+  <section class="section" id="checklist" aria-labelledby="h-check">
+    <h2 id="h-check"><span class="h-num">06</span>신청 전 체크리스트</h2>
+    <p class="section-lead">하나씩 눌러서 체크해 보세요. 이 체크리스트는 준비를 돕는 용도예요.</p>
+
+    <div class="check-top">
+      <p class="check-count"><strong id="check-done">0</strong> / <span id="check-total">11</span> 완료</p>
+      <progress id="check-bar" max="11" value="0" aria-label="체크리스트 진행률"></progress>
+    </div>
+
+    <ul class="checklist" id="checklist-list">
+      <li><label class="check"><input type="checkbox" data-id="date"><span>내가 신청할 수 있는 날짜를 확인했다 <em>(10.7 홀수 · 10.8 짝수 · 10.12~16 누구나)</em></span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="age"><span>나이(계좌개설일 기준 만 19~34세)와 병역기간 차감 기준을 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="income"><span>개인소득(2025년 기준)과 가구소득 조건을 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="diff"><span>‘가입 조건’과 ‘정부기여금 지급 조건’이 다르다는 것을 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="app"><span>취급기관 앱 설치, 회원가입, 본인인증, 입출금계좌 개설을 준비했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="rate"><span>은행별 우대금리를 비교하고 취급기관을 골랐다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="type"><span>내 상황에 맞는 신청 유형(일반소득자 · 중소기업 재직자 · 소상공인)을 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="family"><span>주민등록표등본 기준 가구원과 가구원 동의가 필요한지 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="docs"><span>해당하는 경우 추가 서류(병적증명서, 가족관계증명서, 중소기업·소상공인확인서 등)를 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="switch"><span>청년도약계좌가 있다면 신청 전에 해지하지 않고, 갈아타기 순서를 확인했다</span></label></li>
+      <li><label class="check"><input type="checkbox" data-id="after"><span>신청 이후 결과 안내 일정과 계좌개설 기간(11.16~11.27)도 확인했다</span></label></li>
+    </ul>
+
+    <p class="callout callout-warn" role="note"><strong>모두 체크해도 가입 자격이 충족된다는 뜻은 아니에요.</strong> 최종 가입 여부와 적용 혜택은 취급기관 심사와 공식 안내에 따라요. 접수 시간은 신청할 취급기관 앱 공지를 확인하세요.</p>
+
+    <div class="check-foot">
+      <p id="storage-note" class="small">체크 상태는 이 기기·이 브라우저에만 저장돼요. 이름·소득·전화번호 같은 개인정보는 입력받지 않아요.</p>
+      <button type="button" class="tool-btn tool-btn-dark" id="btn-reset">체크 초기화</button>
+    </div>
+    <p id="reset-msg" class="tool-msg" role="status" aria-live="polite"></p>
+  </section>
+
+  <!-- I. FAQ -->
+  <section class="section" id="faq" aria-labelledby="h-faq">
+    <h2 id="h-faq"><span class="h-num">07</span>자주 묻는 질문</h2>
+    <div class="faq" id="faq-list">
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">군인도 신청할 수 있나요?</button></h3>
+        <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden>
+          <p>군인이라서 자동으로 가입되는 건 아니에요. 나이·소득·가구소득 요건을 충족해야 해요.</p>
+          <p>금융위원회는 복무 중 장병도 전년도(2025년)에 과세대상 소득 또는 일부 비과세 소득(군장병급여 등)이 있고 소득요건을 충족하면 일반형으로 가입할 수 있다고 안내했어요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">신청하면 바로 계좌가 만들어지나요?</button></h3>
+        <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
+          <p>아니에요. 10.7~10.16에 신청하면 10.19~11.13에 심사를 하고, ‘가입 가능’ 안내를 받은 분만 11.16~11.27에 취급기관 앱에서 계좌를 개설해요. 이 기간이 지나면 개설할 수 없어요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">매달 최대 금액을 꼭 넣어야 하나요?</button></h3>
+        <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>
+          <p>자유적립식이라 50만원을 꼭 채울 필요는 없어요. 다만 정부기여금은 매월 납입액의 6% 또는 12%라서 납입액에 따라 받는 기여금이 달라져요. 월 지급 한도는 일반형 3만원, 우대형 6만원이고, 연 600만원을 넘겨 납입할 수 없어요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">가입 대상이면 정부기여금도 동일한가요?</button></h3>
+        <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden>
+          <p>아니요. 가입 가능 소득(총급여 7,500만원 이하)과 기여금 지급 소득은 기준이 달라요. 총급여 6,000만원 초과 ~ 7,500만원 이하는 가입은 되지만 기여금 없이 비과세만 받아요. 기여금은 일반형 6%, 우대형 12%예요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">기존 청년도약계좌는 언제 해지하나요?</button></h3>
+        <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden>
+          <p>미리 해지하지 않아요. 청년미래적금 신청·심사를 마치고 계좌를 개설한 뒤, 같은 계좌개설 기간(11.16~11.27) 안에 청년도약계좌 취급은행 앱에서 ‘청년미래적금 가입 목적’ 특별중도해지를 신청해요. 신청 전에 해지하면 갈아타기가 안 돼요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">장병내일준비적금이 있으면 가입 못 하나요?</button></h3>
+        <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>
+          <p>금융위원회는 군장병이 장병내일준비적금·장기간부도약적금과 청년미래적금을 중복 가입할 수 있다고 안내했어요. 다만 별도 상품이라 청년미래적금의 나이·소득·가구소득 요건은 따로 충족해야 해요.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-a7" id="faq-q7">문의는 어디로 하나요?</button></h3>
+        <div class="faq-a" id="faq-a7" role="region" aria-labelledby="faq-q7" hidden>
+          <p>서민금융진흥원 청년금융콜센터(1397 → 3번)에서 안내받을 수 있어요. 앱 사용이나 은행별 우대금리는 신청하려는 취급기관에 문의하세요.</p>
+          <p><a href="tel:1397">1397로 전화하기</a> · <a href="https://www.kinfa.or.kr/counselingSupport/oftendoneQuestion.do?from=yfs" target="_blank" rel="noopener noreferrer">공식 FAQ 보기<span class="sr-only"> (새 창)</span></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- J. 출처 -->
+  <section class="section" id="sources" aria-labelledby="h-src">
+    <h2 id="h-src"><span class="h-num">08</span>출처</h2>
+    <div class="table-wrap">
+      <table class="tbl tbl-cards" role="table">
+        <caption class="sr-only">참고한 공식 자료</caption>
+        <thead role="rowgroup">
+          <tr role="row"><th role="columnheader" scope="col">기관</th><th role="columnheader" scope="col">자료</th><th role="columnheader" scope="col">발표일</th><th role="columnheader" scope="col">확인일</th></tr>
+        </thead>
+        <tbody role="rowgroup">
+          <tr role="row"><td role="cell" data-label="기관">금융위원회</td><td role="cell" data-label="자료"><a href="https://fsc.go.kr/no010101/87820" target="_blank" rel="noopener noreferrer">10월 7일부터 2차 가입신청 시작! 청년미래적금 가입 전 달라진 절차와 주요일정을 확인하세요<span class="sr-only"> (새 창)</span></a></td><td role="cell" data-label="발표일">2026.9.30</td><td role="cell" data-label="확인일">2026.10.5</td></tr>
+          <tr role="row"><td role="cell" data-label="기관">금융위원회</td><td role="cell" data-label="자료"><a href="https://fsc.go.kr/no010101/87726" target="_blank" rel="noopener noreferrer">10월 7일부터 청년미래적금 2차 가입 신청을 받습니다<span class="sr-only"> (새 창)</span></a></td><td role="cell" data-label="발표일">2026.9.16</td><td role="cell" data-label="확인일">2026.10.5</td></tr>
+          <tr role="row"><td role="cell" data-label="기관">대한민국 정책브리핑</td><td role="cell" data-label="자료"><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148972819" target="_blank" rel="noopener noreferrer">‘연 최대 19.4%’ 2차 청년미래적금, 10월 7일부터 가입 신청<span class="sr-only"> (새 창)</span></a></td><td role="cell" data-label="발표일">2026.9.30</td><td role="cell" data-label="확인일">2026.10.5</td></tr>
+          <tr role="row"><td role="cell" data-label="기관">서민금융진흥원</td><td role="cell" data-label="자료"><a href="https://fill4young.kinfa.or.kr/yfs/main" target="_blank" rel="noopener noreferrer">청년미래적금 상품 안내<span class="sr-only"> (새 창)</span></a></td><td role="cell" data-label="발표일">상시 안내(게시일 미표기)</td><td role="cell" data-label="확인일">2026.10.5</td></tr>
+          <tr role="row"><td role="cell" data-label="기관">서민금융진흥원</td><td role="cell" data-label="자료"><a href="https://www.kinfa.or.kr/counselingSupport/oftendoneQuestion.do?from=yfs" target="_blank" rel="noopener noreferrer">자주하는 질문(FAQ) · 청년미래적금<span class="sr-only"> (새 창)</span></a></td><td role="cell" data-label="발표일">상시 안내(게시일 미표기)</td><td role="cell" data-label="확인일">2026.10.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="btn-row btn-row-left">
+      <a class="btn btn-primary btn-sm" href="https://fill4young.kinfa.or.kr/yfs/main" target="_blank" rel="noopener noreferrer">공식 신청 안내 (서민금융진흥원)<span class="sr-only"> (새 창)</span></a>
+      <a class="btn btn-ghost btn-sm" href="https://www.instagram.com/jjeonpower/" target="_blank" rel="noopener noreferrer">쩐투력 인스타그램<span class="sr-only"> (새 창)</span></a>
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="disclaimer">이 자료는 공식 공개자료를 정리한 안내이며, 최종 가입 여부와 적용 혜택은 취급기관 심사 및 공식 안내에 따릅니다.</p>
+    <p class="small">쩐투력(JJEONPOWER)은 정부기관·금융기관이 아니며, 이 페이지는 공식 사이트가 아닙니다. 개인정보를 수집하지 않고, 체크리스트는 내 브라우저에만 저장돼요.</p>
+    <p class="small">공식자료 확인일 2026.10.5 · 일정은 변경될 수 있어요.</p>
+  </div>
+</footer>
+
+<div class="float-bar" aria-label="빠른 이동">
+  <a class="float-btn" href="#checklist">체크리스트</a>
+  <button type="button" class="float-btn float-btn-top" id="btn-top" aria-label="맨 위로 이동">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M12 5l-7 7 1.4 1.4L11 8.8V20h2V8.8l4.6 4.6L19 12z" fill="currentColor"/></svg>
+    <span>맨 위</span>
+  </button>
+</div>
+</body>
+</html>
